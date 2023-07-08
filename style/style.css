@@ -19,11 +19,29 @@ font-weight: 700;
 padding: 15px 30px;
 }
 
+.banner-p{
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    
+    }
+
+.contact-btn{
+    background: white;
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #FD6E0A;
+    
+}
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px
 }
 
 .nav-title{
@@ -54,4 +72,65 @@ font-weight: 400;
 
 .nav-span{
     color: #FD6E0A;
+}
+
+/* header related css */
+
+.header{
+    background: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 0px 200px;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+}
+
+.banner-content{
+   max-width: 500px;
+
+}
+
+.banner .profile-picture{
+    width: 500px;
+}
+
+.banner-top-text{
+color: var(--dark-02, #474747);
+font-style: normal;
+font-weight: 600;
+
+}
+
+.banner-title{
+color: var(--dark-01, #181818);
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+
+}
+
+.about{
+padding: 130px;
+background: #FFF8F3;
+margin: 50px 0px;
+}
+.section-title{
+color:#181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+
+.section-description{
+color:#757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
